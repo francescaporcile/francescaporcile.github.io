@@ -1,0 +1,118 @@
+/* Corpo della pagina */
+body {
+    background-color: #1f1f1f; 
+    font-family: 'Fira Code', monospace; 
+    margin: 0; 
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Contenitore centrato */
+.container {
+    text-align: center; /* Allineamento del testo */
+    padding: 20px; /* Padding per dare un po' di spazio interno */
+    border: 2px solid; 
+    border-color: #494b4d;
+    border-radius: 10px; /* Angoli arrotondati */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Leggera ombra */
+    max-width: 600px; 
+    width: 100%; 
+}
+
+
+h1 {
+    color: #c7d1d7; 
+    font-size: 40px; 
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+
+/* Stile per il sottotitolo */
+h2 {
+    color: #6a9955; 
+    font-size: 20px; 
+    font-weight: 200;
+    margin-bottom: 20px; 
+}
+
+/* Rimuove la lista puntata */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Rimuove la sottolineatura dai collegamenti */
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/* Stile per gli elementi della lista */
+ul li {
+    font-size: 15px;
+    padding: 15px 15px; 
+    margin: 20px 0; /* Margine esterno */
+    border-radius: 10px; /* Angoli arrotondati */
+    font-weight: 300;
+    display: flex; 
+    justify-content: center; 
+    color: white; 
+    border: 1px solid; 
+    transition: background-color 0.3s; 
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* Colori per i bordi delle lezioni */
+.lezione1 {
+    border-color: #8cdcfe; 
+}
+
+.lezione2 {
+    border-color: #e6e689; 
+}
+
+.lezione3 {
+    border-color: #2d7ad6; 
+}
+
+.lezione4 {
+    border-color: #b965c1; 
+}
+
+.lezione5 {
+    border-color: #ce723c; 
+}
+
+/* Colore del testo dei collegamenti all'interno dei box */
+.lezione1 a { color: #b965c1; }
+.lezione2 a { color: #ce723c; }
+.lezione3 a { color: #8cdcfe; }
+.lezione4 a { color: #2d7ad6; }
+.lezione5 a { color: #e6e689; }
+
+/* Cambio di colore del box al passaggio del mouse sulle lezioni */
+.lezione1:hover {
+    background-color: rgba(140, 220, 254, 0.3); 
+}
+
+.lezione2:hover {
+    background-color: rgba(230, 230, 137, 0.3); 
+}
+
+.lezione3:hover {
+    background-color: rgba(45, 122, 214, 0.3); 
+}
+
+.lezione4:hover {
+    background-color: rgba(187, 134, 192, 0.3); 
+}
+
+.lezione5:hover {
+    background-color: rgba(206, 114, 60, 0.3); 
+}
+

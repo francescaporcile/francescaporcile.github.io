@@ -1,0 +1,57 @@
+body {
+    background-color: #1f1f1f; 
+    font-family: 'Fira Code', monospace;
+    padding: 20px; /* Padding per il body */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* Centra gli elementi orizzontalmente */
+}
+
+h1 {
+    color: #b965c1; 
+    font-size: 40px; 
+    font-weight: 500;
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+h2 {
+    color: #6a9955; /* Colore del testo */
+    font-size: 15px; 
+    font-weight: 200; /* Peso font */
+    text-align: center; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border: 2px solid #6a9955; 
+    background-color: transparent; 
+    border-radius: 10px; 
+    max-width: 200px; 
+}
+
+
+h3 {
+    margin-top: 15px; /* Leggera distanza da h2 */
+    border-color: #8cdcfe; 
+    color: #6a9955; 
+    font-size: 15px; 
+    font-weight: 200; /* Peso font */
+    text-align: center; 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    border: 2px solid #6a9955; 
+    background-color: transparent; 
+    border-radius: 10px; 
+    max-width: 200px; /* Larghezza massima del box */
+}
+
+
+.link-indice {
+    color: #8cdcfe; /* Colore del link */
+    border-bottom: 2px dashed transparent; /* Linea invisibile per mantenere lo spazio */
+    transition: color 0.3s, border-color 0.3s; /* Transizione per il colore e la linea */
+    text-decoration: none; 
+}
+
+.link-indice:hover {
+    color: #6a9955; /* Colore del testo al passaggio del mouse */
+}
